@@ -8,7 +8,7 @@ namespace MVCDemoapptest.Models
 {
     public class EmployeeDataAcessLayer
     {
-        string connectionString = "Server=DESKTOP-QJHT6IE\\SQLEXPRESS;Database=EmployeeDB;User Id=sa;Password=password@123;";
+        string connectionString = "";
         public IEnumerable<Employee> GetAllEmployee()
         {
             List<Employee> lstEmployee = new List<Employee>();
