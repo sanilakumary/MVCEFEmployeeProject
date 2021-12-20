@@ -16,6 +16,7 @@ namespace MVCDemoapptest.Models
         public string City { get; set; }
         [Required]
         public string Department { get; set; }
+        //adding
         [Required]
         public string Gender { get; set; }
     }
